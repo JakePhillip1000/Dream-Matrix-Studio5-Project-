@@ -7,13 +7,13 @@ extends Camera3D
 @export var pitch: float = 0.0
 
 @export_category("Cam Shaking")
-@export var shakeAmount: float = 0.1
-@export var shakeSpeed: float = 8.0
+@export var shakeAmount: float = 0.15
+@export var shakeSpeed: float = 6.5
 @export var shakeSmoothness: float = 28.5
 
 @export var player: CharacterBody3D
 
-var CamShakeTime: float = 0.01
+var CamShakeTime: float = 0
 var originalPos: Vector3
 var originalRotation: Vector3
 
